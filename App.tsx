@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { SafeAreaView } from "react-native";
 import { Home } from "./src/screens/Home";
 import { Photo } from "./src/screens/Photo";
 

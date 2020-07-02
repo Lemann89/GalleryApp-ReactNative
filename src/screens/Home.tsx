@@ -8,9 +8,11 @@ import {
 import {HttpService} from "../services/http.service";
 import {IPhotos} from "../models/photos";
 import PhotoCard from "../components/PhotoCard";
+import { NavigationContainerRef } from "@react-navigation/core";
+
 
 interface Props {
-  navigation: any;
+  navigation: NavigationContainerRef;
 }
 
 export class Home extends PureComponent<Props> {
@@ -47,8 +49,5 @@ const styles = StyleSheet.create({
   container: {
     display: "flex",
     backgroundColor: "#fff",
-  },
-  blockText: {
-    fontSize: 20,
-  },
+  }
 });

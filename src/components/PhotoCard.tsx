@@ -1,10 +1,11 @@
 import React, {PureComponent} from "react";
 import {StyleSheet, View, TouchableOpacity, Image, Dimensions} from "react-native";
 import {IPhotos} from "../models/photos";
+import { NavigationContainerRef } from "@react-navigation/core";
 
 interface Props {
   photo: IPhotos;
-  navigation: any;
+  navigation: NavigationContainerRef;
 }
 
 

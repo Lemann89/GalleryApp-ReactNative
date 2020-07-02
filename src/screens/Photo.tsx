@@ -22,15 +22,13 @@ export class Photo extends PureComponent<Props> {
 
 const styles = StyleSheet.create({
     flexGrid: {
-      flexDirection: "column",
+      flexDirection: "row",
       flexWrap: "wrap",
       margin: 5,
     },
     image: {
-      width: "97%",
+      width: "100%",
       height: 300,
-      justifyContent: "center",
-      alignItems: "center",
     },
     title: {
         fontSize: 25,
